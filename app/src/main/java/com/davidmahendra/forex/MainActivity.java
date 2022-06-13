@@ -81,15 +81,15 @@ public class MainActivity extends AppCompatActivity {
                 double idr = ratesModel.getIDR();
 
                 audTextView.setText(formatNumber(aud, "###,##0.##"));
-                bndTextView.setText(formatNumber(aud, "###,##0.##"));
-                btcTextView.setText(formatNumber(aud, "###,##0.##"));
-                eurTextView.setText(formatNumber(aud, "###,##0.##"));
-                gbpTextView.setText(formatNumber(aud, "###,##0.##"));
-                hkdTextView.setText(formatNumber(aud, "###,##0.##"));
-                inrTextView.setText(formatNumber(aud, "###,##0.##"));
-                jpyTextView.setText(formatNumber(aud, "###,##0.##"));
-                myrTextView.setText(formatNumber(aud, "###,##0.##"));
-                usdTextView.setText(formatNumber(aud, "###,##0.##"));
+                bndTextView.setText(formatNumber(bnd, "###,##0.##"));
+                btcTextView.setText(formatNumber(btc, "###,##0.##"));
+                eurTextView.setText(formatNumber(eur, "###,##0.##"));
+                gbpTextView.setText(formatNumber(gbp, "###,##0.##"));
+                hkdTextView.setText(formatNumber(hkd, "###,##0.##"));
+                inrTextView.setText(formatNumber(inr, "###,##0.##"));
+                jpyTextView.setText(formatNumber(jpy, "###,##0.##"));
+                myrTextView.setText(formatNumber(myr, "###,##0.##"));
+                usdTextView.setText(formatNumber(inr, "###,##0.##"));
 
                 loadingProgressBar.setVisibility(TextView.INVISIBLE);
             }
